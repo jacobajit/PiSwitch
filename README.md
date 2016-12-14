@@ -1,0 +1,3 @@
+# PiSwitch
+
+The Internet of Things (IoT) is widely proclaimed to be the new frontier of connected computing. The industry seeks to connect and automate devices everywhere, but cost and complicated frameworks inhibit widespread adoption. We're developing an Internet-connected device to automate wall toggle switches mechanically using a linear actuator. The main advantage of our proposed device lies in its affordability and convenience. We plan to use an Omega 2 embedded Linux computer running a Python app that subscribes to incoming messages and triggers the actuator through GPIO. The primary interface for our device will be voice; we plan to implement Amazon’s Alexa Skills Kit and Google’s Actions on Google to develop an intuitive conversational interface.
