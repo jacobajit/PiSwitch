@@ -1,0 +1,26 @@
+{
+  "name": "facts-about-google",
+  "description": "Fun way to learn more about Google!",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache Version 2.0",
+  "author": "Google Inc.",
+  "engines": {
+    "node": "~4.2"
+  },
+  "scripts": {
+    "lint": "semistandard --fix \"**/*.js\"",
+    "start": "firebase serve --only functions",
+    "deploy": "firebase deploy --only functions"
+  },
+  "dependencies": {
+    "@manekinekko/google-actions-server": "^2.0.6",
+    "actions-on-google": "^1.0.0",
+    "firebase-admin": "^4.2.1",
+    "firebase-functions": "^0.5.7",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "semistandard": "^9.1.0"
+  }
+}
