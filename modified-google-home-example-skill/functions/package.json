@@ -16,6 +16,7 @@
   "dependencies": {
     "@manekinekko/google-actions-server": "^2.0.6",
     "actions-on-google": "^1.0.0",
+    "http": "^0.0.0",
     "firebase-admin": "^4.2.1",
     "firebase-functions": "^0.5.7",
     "request": "^2.81.0"
